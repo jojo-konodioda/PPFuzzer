@@ -38,3 +38,7 @@ roslaunch ego_planner run_in_sim.launch
 ```javascript
 python3 replay.py index_number_of_type
 ```
+
+## Note
+As path planners use fast search algorithms (e.g. A*, RRT*) to randomly search for a path, the vulnerability may not trigger every time. 
+If the vulnerability is not triggered, please **retry**.
