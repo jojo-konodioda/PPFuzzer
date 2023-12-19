@@ -20,10 +20,6 @@ cd PPFuzzer/src
 ## Replay 
 
 - Execute `replay.py` to replay vulnerability scenario #1:
-
-
-## Replay
-- Execute `replay.py` to setup the vulnerability scenario, the parameter  `1` indicates to replay vulnerability type #1.
 ```javascript
 python3 replay.py 1
 ```
