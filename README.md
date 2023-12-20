@@ -19,9 +19,9 @@ cd PPFuzzer/src
 
 ## Replay 
 
-- Execute `replay.py` to replay vulnerability scenario #1:
+- Execute `replay.py` to replay vulnerability type #1 scenario:
 ```javascript
-python3 replay.py 1
+python3 replay.py type1
 ```
 
 - Open another new terminal and launch `rviz`:
@@ -36,7 +36,9 @@ roslaunch ego_planner run_in_sim.launch
 
 - Similarly, to replay other vulnerability types, execute:
 ```javascript
-python3 replay.py index_number_of_type
+python3 replay.py folder_name
+\# for example:
+python3 replay.py type2 \(replay vulnerability type #2 scenario\)
 ```
 
 ## Note
