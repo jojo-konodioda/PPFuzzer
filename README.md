@@ -37,7 +37,7 @@ roslaunch ego_planner run_in_sim.launch
 - Similarly, to replay other vulnerability types, execute:
 ```javascript
 python3 replay.py folder_name
-\# for example:
+# for example:
 python3 replay.py type2 \(replay vulnerability type #2 scenario\)
 ```
 
