@@ -38,7 +38,7 @@ roslaunch ego_planner run_in_sim.launch
 ```javascript
 python3 replay.py folder_name
 # for example:
-python3 replay.py type2 \(replay vulnerability type #2 scenario\)
+python3 replay.py type2 (replay vulnerability type #2 scenario)
 ```
 
 ## Note
