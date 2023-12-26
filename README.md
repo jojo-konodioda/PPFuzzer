@@ -54,3 +54,5 @@ roslaunch ego_planner run_in_sim.launch (launch Ego-Planner in another new termi
 - As path planners use fast search algorithms (e.g. A*, RRT*) which randomly search a path, therefore the vulnerability may not trigger every time you run the path planner. If the vulnerability is not triggered, please **retry**.
 
 - We simulated a 0.3 m wheelbase drone, thus a collision is assumed when the drone center reaches an obstacle distance within 0.15 m, equivalent to half the wheelbase length.
+
+- The code is tested in `ubuntu 20.04`.
