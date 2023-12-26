@@ -49,7 +49,6 @@ python3 replay.py type2 (replay vulnerability type #2 scenario)
 ```
 
 ## Note
-- As path planners use fast search algorithms (e.g. A*, RRT*) to randomly search for a path, the vulnerability may not trigger every time. 
-If the vulnerability is not triggered, please **retry**.
+- As path planners use fast search algorithms (e.g. A*, RRT*) which randomly search a path, therefore the vulnerability may not trigger every time you run the path planner. If the vulnerability is not triggered, please **retry**.
 
 - We simulated a 0.3 m wheelbase drone, thus a collision is assumed when the drone center reaches an obstacle distance within 0.15 m, equivalent to half the wheelbase length.
