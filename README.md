@@ -6,6 +6,8 @@
 
 - The <font color=blue>vul_scenarios</font> directory contains the point cloud files of scenarios that trigger misbehaviors of path planners.
 
+- The <font color=blue>parameters</font> directory contains the parameters setting of path planners.
+
 ## Setup
 
 - Install `Ego-Planner` following the official instructions and make sure it is installed in your home directory:  
