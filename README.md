@@ -46,7 +46,7 @@ roslaunch ego_planner run_in_sim.launch
 python3 replay.py folder_name
 # for example:
 python3 replay.py type2 (replay vulnerability type #2 scenario)
-roslaunch ego_planner rviz.launch (launch GUI in another new terminal)
+roslaunch ego_planner rviz.launch (launch simulator GUI in another new terminal)
 roslaunch ego_planner run_in_sim.launch (launch Ego-Planner in another new terminal)
 ```
 
