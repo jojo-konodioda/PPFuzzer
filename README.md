@@ -14,7 +14,7 @@
 
   &emsp;<https://github.com/ZJU-FAST-Lab/ego-planner/tree/master>
 
-- Execute the official example to ensure `Ego-Planner` is correctly installed.
+- Execute the official demo to ensure `Ego-Planner` is correctly installed.
 
 - Clone the source code:
 
