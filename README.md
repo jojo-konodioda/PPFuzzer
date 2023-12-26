@@ -1,10 +1,10 @@
 # PPFuzzer
 
-- The <font color=blue>videos</font> directory shows the video record of vulnerabilities.
+- The <font color=blue>videos</font> directory shows the video record about vulnerabilities.
 
-- The <font color=blue>src</font> directory is the code for replaying the vulnerabilities.
+- The <font color=blue>src</font> directory is the code for replaying vulnerabilities.
 
-- The <font color=blue>vul_scenarios</font> directory contains the point cloud files of scenarios that trigger misbehaviors of path planners.
+- The <font color=blue>vul_scenarios</font> directory contains the point cloud files of scenarios that trigger vulnerabilities of path planners.
 
 - The <font color=blue>parameters</font> directory contains the parameters setting of path planners.
 
