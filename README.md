@@ -55,4 +55,4 @@ roslaunch ego_planner run_in_sim.launch (launch Ego-Planner in another new termi
 
 - We simulated a 0.3 m wheelbase drone, thus a collision is assumed when the drone center reaches an obstacle distance within 0.15 m, equivalent to half the wheelbase length.
 
-- The code is tested in `ubuntu 20.04`.
+- The code has been tested in `ubuntu 20.04`.
