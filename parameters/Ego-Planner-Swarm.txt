@@ -47,10 +47,11 @@
     optimization/lambda_feasibility=0.5
     optimization/lambda_fitness=1.0
     optimization/dist0=0.5
+    optimization/swarm_clearance=0.5
     optimization/max_vel=1.6
     optimization/max_acc=2.6
     bspline/limit_vel=1.6
-    bspline/limit_acc" value=2.6
+    bspline/limit_acc=2.6
     bspline/limit_ratio=1.1
 
 <!-- objects prediction -->

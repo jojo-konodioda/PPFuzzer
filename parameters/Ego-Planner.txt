@@ -49,5 +49,5 @@
     optimization/max_vel=1.6
     optimization/max_acc=2.6
     bspline/limit_vel=1.6
-    bspline/limit_acc" value=2.6
+    bspline/limit_acc=2.6
     bspline/limit_ratio=1.1
