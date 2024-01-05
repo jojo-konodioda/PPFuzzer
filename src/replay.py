@@ -6,8 +6,8 @@ import sys
 import shutil
 
 if not len(sys.argv) > 1:
-    print('Usage: ' + sys.argv[0] + " type.")
-    print('For example, to execute type1, execut ' + sys.argv[0] + " 1.")
+    print('Usage: ' + sys.argv[0])
+    print('For example, to execute type1, execut ' + sys.argv[0] + " type1.")
     exit()
 
 home = str(Path.home())
@@ -18,18 +18,26 @@ if not os.path.exists(ego_dir):
     exit()
 
 src_dir = os.path.dirname(os.path.abspath(__file__))
-src_folder = "type" + sys.argv[1] + "/launch"
-src_folder_path = os.path.join(src_dir, src_folder)
-dst_dir = ego_dir
-dst_folder_path = os.path.join(dst_dir, "launch")
+launch_folder = sys.argv[1] + "/launch"
+launch_folder_path = os.path.join(src_dir, launch_folder)
 
-if os.path.exists(dst_folder_path):
-    shutil.rmtree(dst_folder_path)
+if os.path.exists(launch_folder_path):
+    dst_dir = ego_dir
+    dst_folder_path = os.path.join(dst_dir, "launch")
 
-shutil.copytree(src_folder_path, dst_folder_path)
+    if os.path.exists(dst_folder_path):
+        shutil.rmtree(dst_folder_path)
+
+    shutil.copytree(launch_folder_path, dst_folder_path)
+
+else:
+    print("Launch file not exist, only publishing the map")
+
+
+
 
 map_generator = map_gen.MapGenerator(0.1, height = 2.2, size = 0.2, z_global = -0.2)
-map_generator.read_map("type" + sys.argv[1] + "/type" + sys.argv[1])
+map_generator.read_map(sys.argv[1] + "/map")
 map_generator.map_pub()
 a = input("Press \"enter\" to stop map publishing")
 map_generator.map_pub_stop()
