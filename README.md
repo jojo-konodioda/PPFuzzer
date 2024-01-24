@@ -2,7 +2,7 @@
 
 - The <font color=blue>videos</font> directory shows the video record about vulnerabilities.
 
-- The <font color=blue>src</font> directory is the code for replaying vulnerabilities.
+- The <font color=blue>src</font> directory is contain the tool to replay vulnerabilities in RQ1 and part code of 'PPFuzzer', we are willing to open source the full code after our paper accept.
 
 - The <font color=blue>vul_scenarios</font> directory contains the point cloud files of scenarios that trigger vulnerabilities of path planners.
 
