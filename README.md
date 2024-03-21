@@ -8,7 +8,7 @@
 
 - The <font color=blue>parameters</font> directory contains the parameters setting of path planners.
 
-![image](https://anonymous.4open.science/r/PPFuzzer-66F2/gif/2.gif)
+![image](https://github.com/jojo-konodioda/PPFuzzer/blob/main/gif/2.gif)
 
 ## Setup
 
