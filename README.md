@@ -8,6 +8,8 @@
 
 - The <font color=blue>parameters</font> directory contains the parameters setting of path planners.
 
+![img] https://github.com/jojo-konodioda/PPFuzzer/blob/main/gif/2.gif
+
 ## Setup
 
 - Install `Ego-Planner` following the official instructions and make sure it is installed in your home directory:  
